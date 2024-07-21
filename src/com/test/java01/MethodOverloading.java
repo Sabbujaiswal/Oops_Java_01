@@ -8,7 +8,7 @@ gr.greetings("jack");
 gr.greetings("Sabbu",3);
     }
 }
-
+//OverLoading--->
 //the function name should be same but arguments passed in that function should be same
 // this feature known as a method overloading
 
