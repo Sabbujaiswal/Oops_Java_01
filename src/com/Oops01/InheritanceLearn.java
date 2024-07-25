@@ -1,4 +1,4 @@
-package com.test.java01;
+package com.Oops01;
 
 public class InheritanceLearn extends Company {
     public static void main(String[] args) {
