@@ -4,7 +4,8 @@ import com.Oops02.PackageAndEncapsulation;
 
 public class EncapMain {
     /*
-    Static key word-->
+    Static key word--> same definition applied for method as wel
+
     1.Its a class level variable , memory allocation of such level variables only happens once
      when the class is loaded in the memory.
     2. if an object modifies the value of static variable, the change is reflected across all the objects.
