@@ -3,6 +3,7 @@ package com.CollectionFramework;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Stack;
 
 public class ListMore {
     /*
@@ -11,6 +12,12 @@ public class ListMore {
  arrayList is also known as dynamic in arrays.
 
  LinkedList--->Element in LinkedList is not store in a sequence , instead they are scattered and connected through links.(will learn LinkedList More about it.)
+ Vector class->The vector class synchronize each individual operation. this means whenever we want to perform some
+ operation on vector , the vector class automatically applies lock to that operation.(see some interview question on it not much important)
+
+ Java Stack-->In stack, element are stored and accessed in Last in first out(LIFO) manner.
+ stack class also implements List so we can use List methods and stack class have there own some method we can use it.
+ eg-pop(),peek(),empty().
      */
     public static void main(String[] args) {
         List<String> fruits=new ArrayList<>();
@@ -30,6 +37,22 @@ public class ListMore {
        while (fr.hasNext()){
            System.out.println("Iterating through iterator..."+fr.next());
        }
+
+       List<Integer> l1=new Stack<>();
+       l1.add(2);
+       l1.add(4);
+        l1.add(5);
+        System.out.println(l1);
+        Stack<Integer> st=new Stack<>();
+        st.push(10);
+        st.push(20);
+        st.push(30);
+        st.push(40);
+        System.out.println(st);
+        System.out.println(st.pop());
+        System.out.println(st);
+        System.out.println(st.peek());
+        System.out.println(st.empty());
 
     }
 }
