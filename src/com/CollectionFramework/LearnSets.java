@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class LearnSets {
+public class  LearnSets {
     /*
 Java set interface-->The set interface of the java collection framework provide the feature of the mathematical set in java.
  Its extends the Collection Interface.
@@ -26,7 +26,7 @@ Java set interface-->The set interface of the java collection framework provide 
         System.out.println(st.remove(10));
         System.out.println(st);
 
-        Set<Integer> st1= new TreeSet<>();
+        Set<Integer> st1= new TreeSet<>(); //O(logn)
         st1.add(4);
         st1.add(3);
         st1.add(1);
