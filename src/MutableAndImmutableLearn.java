@@ -1,4 +1,4 @@
-public class JDBC_Isert {
+public class MutableAndImmutableLearn {
     public static void main(String[] args) {
         //Mutable and Immutable Learn--
         String str="Jack";//String is immutable
