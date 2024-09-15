@@ -9,7 +9,7 @@ gr.greetings("Sabbu",3);
     }
 }
 //OverLoading--->
-//the function name should be same but arguments passed in that function should be same
+//the function name should be same and arguments passed in that function should be different.
 // this feature known as a method overloading
 
 class Greet{

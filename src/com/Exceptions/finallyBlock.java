@@ -3,7 +3,7 @@ package com.Exceptions;
 public class finallyBlock {
     /*
     Exception is a parent class of all the exceptions.
-    finally block--> in java we use finally bloack after try and catch block.
+    finally block--> in java we use finally block after try and catch block.
     finally block will always executed whether there is an exception inside the try block or not.
     it is good practice to use finally block to include important clean up code.
 

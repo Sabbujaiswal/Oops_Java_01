@@ -4,10 +4,10 @@ public class LearnInterface {
     /*
     Interface-->1.A interface is a fully abstract class. it includes a group of abstract method(Method without a body)
     2.We use Interface key word to create an Interface in Java.
-    3.Like Abstract class we can create object of Interface.
+    3.Like Abstract class we can not create object of Interface.
     4. To use Interface other class must implement it . we use implement keyword to implement an interface.
     5. measure differance in interface is we can use multiple interface its mean one class can implement two interfaces.
-    6.interface ke andar by default abstract method k pehle lga hota h no need to declare it.
+    6.interface ke andar by default abstract method  pehle lga hota h no need to declare it.
     and method v isme by default public hota h kyu k private krne ka koi meaning h ni kyu hmko iski
     properties or method ko dusre class m access krna hota h
     imp--> interface k ander by default public static final variable hota h agr ni v lgaenge to default wo waha pe rehata h.

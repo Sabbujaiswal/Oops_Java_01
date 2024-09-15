@@ -9,7 +9,7 @@ public class LearnAbstract {
     5.we can use abstract class properties and method by its children class
     6.if abstract class have abstract method then child class will have to inherit that method.
     7.Abstract method allowed only in abstract class.
-    Real time example--Vehicle have properties of run,accelerate and horn on the behalf of that we can crate car ,scooter etc.
+    Real time example--Vehicle have properties of run,accelerate and horn on the behalf of that we can create car ,scooter etc.
     eg2-Home -> have propeties front door,back door, rooms using this properties we can crate villas, Hotel,flats and cam use the property of HOme.
      */
     public static void main(String[] args) {

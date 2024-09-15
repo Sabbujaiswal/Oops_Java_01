@@ -41,7 +41,7 @@ public class ListMore {
        List<Integer> l1=new Stack<>();
        l1.add(2);
        l1.add(4);
-        l1.add(5);
+       l1.add(5);
         System.out.println(l1);
         Stack<Integer> st=new Stack<>();
         st.push(10);
