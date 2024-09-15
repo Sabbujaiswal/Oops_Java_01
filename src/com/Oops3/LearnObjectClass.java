@@ -8,7 +8,7 @@ public class LearnObjectClass {
     Here we will learn about java o object class methods
     toStirng method- return object that is human-readable if we don't read then
     it will print object reference which is in heap memory.
-    #Contract behind hashCode and equals method--gae do object same h to unka hash code v memory m same hona chahie
+    #Contract behind hashCode and equals method--agr do object same h to unka hash code v memory m same hona chahie
      */
 
     public static void main(String[] args) {

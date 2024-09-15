@@ -16,7 +16,7 @@ public class WrapperClass {
  2.Dta structure in collection framework such as ArrayList, Vector,store only objects not primitive data type
 
  **AutoBoxing and Unboxing--> 1.Conversion of int into Integer ,long into Long etc. known as AutoBoxing.
- 2.Conversion of Integer into int ,Double into double,Character into char in known as UnBoxing this is revers of Unboxing.
+ 2.Conversion of Integer into int ,Double into double,Character into char in known as UnBoxing this is revers of Autoboxing.
      */
     public static void main(String[] args) {
        Integer obj1=Integer.valueOf(20); //creating object(Autoboxing)

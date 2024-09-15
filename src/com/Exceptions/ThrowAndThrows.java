@@ -15,6 +15,7 @@ public class ThrowAndThrows {
         int a[] =new int[9];
         try {
             System.out.println(meth1(a));
+
         }catch (Exception e){
             System.out.println("Exception Handled");
         }
@@ -30,9 +31,23 @@ public class ThrowAndThrows {
             System.out.println(e.getMessage());
         }
 
+     //divideNUm(10,0);
+        int arr[]=new int[12];
+meth1(arr);
 
     }
 
+    public  static int divideNUm(int a ,int b) throws ArithmeticException{
+        try {
+            if(b==0){
+                throw new ArithmeticException("Can Not be Divided by a zero..");
+            }
+        }catch (ArithmeticException e){
+            System.out.println(e.getMessage());
+        }
+
+        return a/b;
+    }
     public  static int meth1(int a[]) throws ArrayIndexOutOfBoundsException{
         return a[10];
     }
